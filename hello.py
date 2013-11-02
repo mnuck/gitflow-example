@@ -11,4 +11,6 @@
 def greet(name):
     print "Hello, %s!" % name
 
-greet("World")
+
+if __name__ == "__main__":
+    greet("World")
