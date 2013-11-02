@@ -8,4 +8,7 @@
 # by DFAR 252.227-7013(B)(3) - Limited Rights
 # or DFAR 252.227-7014(b)(3) - Restricted Rights. 
 
-print "Hello World!"
+def greet(name):
+    print "Hello %s!" % name
+
+greet("World")
