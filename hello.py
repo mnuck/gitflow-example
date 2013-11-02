@@ -9,6 +9,6 @@
 # or DFAR 252.227-7014(b)(3) - Restricted Rights. 
 
 def greet(name):
-  print "Hello %s!" % name
+    print "Hello %s!" % name
 
 greet("World")
